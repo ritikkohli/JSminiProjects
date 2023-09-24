@@ -1,0 +1,140 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body,html{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+#main{
+    width: 33vw;
+    background-color: black;
+    height: 100vh;
+    position: relative;
+}
+.center{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.cp{
+    cursor: pointer;
+}
+button{
+    cursor: pointer;
+}
+#header{
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    padding:10px;
+    background-color: antiquewhite;
+}
+#logo,#profile{
+    width: 45px;
+    height: 45px;
+    background-color: yellowgreen;
+    border-radius: 50%;
+}
+#dashboard{
+    height: 20vh;
+    width: 100%;
+    background-color: tomato;
+    /* padding: 10px; */
+}
+#dash-upper{
+    height: 70%;
+    width: 100%;
+    background-color: lightpink;
+    display: flex;
+    justify-content: space-between;
+    /* padding: 5px; */
+}
+#dash-up-left{
+    padding: 0px;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: aliceblue;
+}
+#balance{
+    background-color: red;
+}
+#refresh{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#dash-up-right{
+    padding: 10px 0px;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background-color: aliceblue;
+}
+#recharge-btn,#withdraw-btn{
+    height: 30px;
+    width: 100px;
+    border-radius: 10px;
+    border: none;
+    font-size: 15px;
+    font-weight: 500;
+    color: #fff;
+    background-color: rgb(75, 75, 177);
+}
+#dash-bottom{
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 30px;
+    padding-top: 12px;
+}
+#checkin-btn,#task-btn{
+    height: 25px;
+    width: 70px;
+    border-radius: 5px;
+    border: none;
+    font-size: 15px;
+    font-weight: 400;
+    color: #fff;
+    background-color: rgb(100, 100, 202);
+}
+#games{
+    width: 100%;
+    padding: 20px 40px;
+    display: flex;
+    justify-content: space-between;
+    gap:20px;
+    flex-wrap: wrap;
+}
+#box{
+    height: 20vh;
+    width: 12vw;
+    background-color: white;
+    border-radius: 10px;
+    color: tomato;
+    cursor: pointer;
+}
+#footer{
+    background-color: yellowgreen;
+    float: bottom;
+    height: 52px;
+    width: 100%;
+    position: absolute;
+    bottom: 0%;
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 20px;
+}
+#footer-elem{
+    background-color: #fff;
+    width: 15%;
+    height: 100%;
+}

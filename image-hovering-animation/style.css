@@ -1,0 +1,45 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+    background-color: #000;
+}
+#main{
+    height: 100%;
+    width: 100%;
+    padding: 0 4vh;
+}
+.elem{
+    height: 120px;
+    width: 100%;
+    border-bottom: 1px solid #fff;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+}
+.elem h1{
+    color: #fff;
+    font-size: 90px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    font-weight: 800;
+    position: relative;
+    z-index: 999;
+    mix-blend-mode: difference;
+}
+.elem img{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    position: absolute;
+    opacity: 0;
+    transform: translate(-50%,-50%);
+    object-fit: cover;
+    object-position: center;
+    transition: all linear 0.2s;
+}

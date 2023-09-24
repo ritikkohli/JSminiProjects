@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+.container{
+    height: 70%;
+    width: 60%;
+    /* border: 2px solid blue; */
+    background-color: black;
+    margin-top: 5%;
+    margin-left: 20%;
+    border-radius: 1rem;
+    display: flex;
+}
+.bulb-container{
+    background-color: aqua;
+    height: 100%;
+    width: 60%;
+    border-top-left-radius: inherit;
+    border-bottom-left-radius: inherit;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.switch-container{
+    background-color: cadetblue;
+    height: 100%;
+    width: 40%;
+    border-top-right-radius: inherit;
+    border-bottom-right-radius: inherit;
+}
+.bulb-head{
+    height:3rem;
+    width: 6rem;
+    background-color: #000;
+}
+.bulb{
+    height: 18rem;
+    width: 17rem;
+    border: 2px solid black;
+    border-radius: 50%;
+    background-color: #fff;
+}
+.switch{
+    height: 40%;
+    width: 66%;
+    margin-top: 40%;
+    margin-left: 17%;
+    background-color: #fff;
+    border: 2rem solid beige;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+button{
+    background-color: inherit;
+    border: 0;
+    height: 2rem;
+    width: 3rem;
+    font-size: 1rem;
+    cursor:pointer;
+}
+#off-btn{
+    color: gray;
+}
+button::after{
+    color: aqua;
+}
