@@ -2,7 +2,7 @@
 
 ## LINKS
 
-### Bubble Game - https://glittery-tanuki-5cd7e9.netlify.app/
+### Bubble Game - https://bubbble-game.netlify.app/
 ### Bulb        - https://onbulb.netlify.app/
 ### Custom cursor - https://custom-cursorr.netlify.app/
 ### Friend request - https://friend-request-feature.netlify.app/
