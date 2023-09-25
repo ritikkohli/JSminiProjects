@@ -15,7 +15,7 @@ html,body{
 #card{
     background-color: #fff;
     height: 50vh;
-    width: 18vw;
+    width: 300px;
     padding: 1vw 0;
     border-radius: 10px;
     display: flex;
@@ -32,13 +32,13 @@ html,body{
     object-position: center;
 }
 #card h1{
-    font-size: 1.5vw;
+    font-size: 18px;
     font-weight: 600;
     text-align: center;
     margin-top: 0.5vw;
 }
 #card h2{
-    font-size: 1.3vw;
+    font-size: 16px;
     font-weight: 600;
     text-align: center;
     margin-top: 1vw;
@@ -58,4 +58,18 @@ button{
 #remove{
     background-color: #ddcfcf;
     color: black;
+}
+
+@media screen and (max-width: 480px) {
+    #card{
+        background-color: #fff;
+        height: 50vh;
+        width: 80%;
+        padding: 1vw 0;
+        border-radius: 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+    }
 }
