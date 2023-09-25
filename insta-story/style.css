@@ -17,12 +17,23 @@ html,body{
 }
 #container{
     height: 80vh;
-    width: 26vw;
+    width: 340px;
     border: 2px solid wheat;
     border-radius: 10px;
     position: relative;
     overflow: hidden;
     color: #fff;
+}
+@media screen and (max-width: 480px) {
+    #container{
+        height: 80vh;
+        width: 90%;
+        border: 2px solid wheat;
+        border-radius: 10px;
+        position: relative;
+        overflow: hidden;
+        color: #fff;
+    }
 }
 #story-container{
     height: 80px;
